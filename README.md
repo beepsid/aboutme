@@ -2,4 +2,4 @@
 
 Just a about me repository, created for fun.. !
 
-Checkout https://sinister-69.github.io/devsinister.io/
+Checkout https://siddhant-012.github.io/devsinister.io/

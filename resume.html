@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <title>Resume — Siddzzzz</title>
+
+  <link href="./main.3f6952e4.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/jpg" href="assets/images/sinister.jpg"/>
+
+  <style>
+    /* ── Download row ── */
+    .resume-download-row {
+      text-align: right;
+      padding: 0 0 10px 0;
+    }
+    .resume-download-row .btn-default {
+      font-size: 13px;
+      padding: 8px 20px;
+    }
+
+    /* ── Skills section ── */
+    .skills-section {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .skills-section h3 {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #777;
+      margin-bottom: 10px;
+      margin-top: 24px;
+    }
+    .skills-section h3:first-child {
+      margin-top: 0;
+    }
+    /* Tag/chip — reuses site's black+white palette, no new colors */
+    .skill-tag {
+      display: inline-block;
+      background-color: #000;
+      color: #fff;
+      font-family: "Roboto Mono", Helvetica, Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      padding: 4px 10px;
+      border-radius: 2px;
+      margin: 3px 4px 3px 0;
+      white-space: nowrap;
+    }
+    .skill-tags-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin-bottom: 6px;
+    }
+
+    /* ── PDF embed ── */
+    .resume-embed-wrap {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .resume-embed-wrap iframe {
+      width: 100%;
+      height: 880px;
+      border: 1px solid #ddd;
+      display: block;
+    }
+    .resume-embed-fallback {
+      display: none;
+      text-align: center;
+      padding: 30px;
+      border: 1px solid #ddd;
+      color: #777;
+      font-size: 11px;
+    }
+    @media (max-width: 767px) {
+      .resume-embed-wrap iframe {
+        height: 520px;
+      }
+    }
+  </style>
+</head>
+
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+
+<header>
+  <nav class="navbar navbar-fixed-top navbar-default">
+    <div class="container">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="./index.html" title="">01 : Home</a></li>
+          <li><a href="./works.html" title="">02 : Works</a></li>
+          <li><a href="./about.html" title="">03 : About me</a></li>
+          <li><a href="./resume.html" title="">04 : Resume</a></li>
+          <li><a href="./certificates.html" title="">05 : Certificates</a></li>
+          <li><a href="./contact.html" title="">06 : Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="section-container-spacer text-center">
+          <h1 class="h2">04 : Resume</h1>
+        </div>
+
+        <!-- PDF embed — first thing visible after heading -->
+        <div class="col-md-10 col-md-offset-1">
+          <div class="resume-embed-wrap">
+            <!-- Download button sits directly above the PDF -->
+            <div class="resume-download-row">
+              <a href="https://drive.google.com/uc?export=download&id=1pn99qr3IHAQZWHwnW55GrpQsSsD5HBMT" class="btn btn-default" target="_blank" rel="noopener noreferrer" aria-label="Download resume PDF">
+                <i class="fa fa-download" aria-hidden="true"></i>&nbsp; Download Resume
+              </a>
+            </div>
+            <iframe
+              src="https://drive.google.com/file/d/1pn99qr3IHAQZWHwnW55GrpQsSsD5HBMT/preview"
+              title="Siddhant Singh Chauhan — Resume"
+              allowfullscreen>
+            </iframe>
+            <p class="resume-embed-fallback">
+              Your browser can't display the PDF inline.
+              <a href="https://drive.google.com/uc?export=download&id=1pn99qr3IHAQZWHwnW55GrpQsSsD5HBMT" target="_blank" rel="noopener noreferrer">Click here to download it instead.</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Skills — below the resume -->
+        <div class="col-md-10 col-md-offset-1">
+          <div class="skills-section">
+
+            <h3>Languages</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">Matplotlib</span>
+              <span class="skill-tag">Seaborn</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">DAX</span>
+            </div>
+
+            <h3>Cloud &amp; Databases</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">GCP</span>
+              <span class="skill-tag">BigQuery</span>
+              <span class="skill-tag">Cloud Storage</span>
+              <span class="skill-tag">MySQL</span>
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">SQL Window Functions</span>
+              <span class="skill-tag">Stored Procedures</span>
+              <span class="skill-tag">Query Optimization</span>
+              <span class="skill-tag">Relational Schema Design</span>
+            </div>
+
+            <h3>Analytics</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">ETL Pipeline Design</span>
+              <span class="skill-tag">Data Analysis</span>
+              <span class="skill-tag">Data Visualization</span>
+              <span class="skill-tag">EDA</span>
+              <span class="skill-tag">Data Cleaning &amp; Wrangling</span>
+              <span class="skill-tag">Statistical Analysis</span>
+              <span class="skill-tag">A/B Testing</span>
+              <span class="skill-tag">KPI Reporting</span>
+              <span class="skill-tag">Anomaly Detection</span>
+              <span class="skill-tag">Trend Analysis</span>
+              <span class="skill-tag">Financial Feature Engineering</span>
+            </div>
+
+            <h3>BI &amp; Reporting</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Power BI</span>
+              <span class="skill-tag">DAX</span>
+              <span class="skill-tag">KPI Cards</span>
+              <span class="skill-tag">Tableau</span>
+              <span class="skill-tag">Looker Studio</span>
+              <span class="skill-tag">Excel</span>
+              <span class="skill-tag">Pivot Tables</span>
+              <span class="skill-tag">VLOOKUP</span>
+              <span class="skill-tag">Power Query</span>
+              <span class="skill-tag">Conditional Formatting</span>
+            </div>
+
+            <h3>Tools</h3>
+            <div class="skill-tags-group">
+              <span class="skill-tag">Jupyter Notebook</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">yfinance API</span>
+              <span class="skill-tag">Google Sheets API</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© Siddzzzz</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+
+    // Fallback: if iframe fails to load, show the download link instead
+    var frame = document.querySelector('.resume-embed-wrap iframe');
+    var fallback = document.querySelector('.resume-embed-fallback');
+    if (frame && fallback) {
+      frame.addEventListener('error', function() {
+        frame.style.display = 'none';
+        fallback.style.display = 'block';
+      });
+    }
+  });
+</script>
+
+<script type="text/javascript" src="./main.70a66962.js"></script>
+</body>
+
+</html>

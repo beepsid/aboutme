@@ -24,7 +24,10 @@ Personal portfolio site for **Siddhant Singh Chauhan**, a B.Tech (AI) graduate a
 **BPO Call Center Analytics** — Python · MySQL · SQL · Power BI  
 End-to-end ETL pipeline over 50,000+ synthetic call records with KPI dashboards and anomaly detection.
 
-**Market Volatility & Safe-Haven Correlation Engine** — Python · PostgreSQL · GCP BigQuery · Power BI  
+**Olist E-Commerce Analytics** — Power BI · Power Query · DAX · Star Schema  
+End-to-end pipeline on 100k real Brazilian e-commerce orders — data cleaning, star schema modeling, 20+ DAX measures, and a 5-page Power BI dashboard.
+
+**Market Volatility & Safe-Haven Correlation Engine** — Python · PostgreSQL · SQL · Power BI  
 Financial pipeline analyzing Nifty 50 vs Gold ETF correlation during market stress periods using yfinance API and SQL window functions.
 
 ---
@@ -62,12 +65,12 @@ aboutme/
 ├── resume.html
 ├── certificates.html
 ├── contact.html
-├── work-bpo.html
-├── work-volatility.html
+├── work-bpo.html          # BPO project detail page
+├── work-volatility.html   # Volatility project detail page
 ├── assets/
-│   └── images/          # All images, icons, favicons, webmanifest
-├── main.3f6952e4.css     # Compiled stylesheet (Bootstrap 3 + custom)
-└── main.70a66962.js      # Compiled JS (jQuery, Typed.js, Bootstrap)
+│   └── images/            # All images, icons, favicons, webmanifest
+├── main.3f6952e4.css      # Compiled stylesheet (Bootstrap 3 + custom)
+└── main.70a66962.js       # Compiled JS (jQuery, Typed.js, Bootstrap)
 ```
 
 ---
